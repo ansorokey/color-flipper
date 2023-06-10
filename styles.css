@@ -30,6 +30,9 @@ button {
     box-sizing: border-box;
     padding: 1em;
     font-size: 2em;
+    border-radius: 1em;
+    border-color: black;
+    font-family: monospace;
 }
 
 h2 {
