@@ -12,7 +12,7 @@ const getRandomHex = () => {
 }
 
 button.addEventListener('click', () => {
-    let newColor =
-    document.body.style.backgroundColor = getRandomHex();
-    color.textContent = getRandomHex();
+    let newColor = getRandomHex();
+    document.body.style.backgroundColor = newColor;
+    color.textContent = newColor;
 });

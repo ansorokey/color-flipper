@@ -1,0 +1,57 @@
+body {
+    background-color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4, a {
+    font-size: 2em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 1em;
+    font-size: 2em;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+    padding: 1em 2em;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.nav-flipper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
